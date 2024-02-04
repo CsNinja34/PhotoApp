@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data/>
+    <LinearLayout android:id="@+id/linearRowrectangletwo"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:orientation="horizontal">
+        <ImageView android:id="@+id/imageRectangleTwo"
+            android:layout_height="@dimen/_107pxh"
+            android:layout_width="@dimen/_107pxh"
+            android:scaleType="fitXY"
+            imageRes="@{@drawable/img_rectangle2}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_rectangle2"/>
+        <ImageView android:id="@+id/imageRectangleTwentyOne"
+            android:layout_height="@dimen/_107pxh"
+            android:layout_marginStart="@dimen/_11pxh"
+            android:layout_width="@dimen/_107pxh"
+            android:scaleType="fitXY"
+            imageRes="@{@drawable/img_rectangle21}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_rectangle21"/>
+        <ImageView android:id="@+id/imageRectangleTwentyTwo"
+            android:layout_height="@dimen/_107pxh"
+            android:layout_marginStart="@dimen/_11pxh"
+            android:layout_width="@dimen/_107pxh"
+            android:scaleType="fitXY"
+            imageRes="@{@drawable/img_rectangle22}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_rectangle22"/>
+    </LinearLayout>
+</layout>

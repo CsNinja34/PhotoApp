@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data/>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearSearch"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearColumnsearch"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical" style="@style/groupStylewhite_A700">
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtSearch"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_16pxh"
+                android:layout_marginStart="@dimen/_16pxh"
+                android:layout_marginTop="@dimen/_29pxv"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@string/lbl_search"
+                style="@style/txtComfortaaregular36" tools:text="@string/lbl_search"/>
+            <View
+                android:background="@drawable/rectangle_bg_white_a700_border_black_900"
+                android:id="@+id/viewRectangleTwo"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="@dimen/_52pxv"
+                android:layout_marginEnd="@dimen/_16pxh"
+                android:layout_marginStart="@dimen/_16pxh"
+                android:layout_marginTop="@dimen/_33pxv" android:layout_width="@dimen/_343pxh"/>
+            <TextView android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:id="@+id/txtLanguage"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_16pxh"
+                android:layout_marginStart="@dimen/_16pxh"
+                android:layout_marginTop="@dimen/_46pxv"
+                android:layout_width="match_parent"
+                android:paddingBottom="@dimen/_15pxv"
+                android:paddingEnd="@dimen/_30pxh"
+                android:paddingStart="@dimen/_30pxh"
+                android:paddingTop="@dimen/_6pxv"
+                android:singleLine="true"
+                android:text="@string/lbl_enter2"
+                style="@style/txtSolidRounded" tools:text="@string/lbl_enter2"/>
+            <View android:background="@color/white_A700"
+                android:id="@+id/viewSearchkeyboard"
+                android:layout_height="@dimen/_291pxv"
+                android:layout_marginTop="@dimen/_225pxv" android:layout_width="@dimen/_375pxh"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data/>
+    <LinearLayout android:gravity="start" android:id="@+id/linearLogin"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <ImageView android:id="@+id/imageArrowdown"
+            android:layout_height="@dimen/_11pxh"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_16pxv"
+            android:layout_width="@dimen/_12pxh"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_arrowdown"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_arrowdown"/>
+        <TextView android:ellipsize="end" android:id="@+id/txtLogin"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_30pxv"
+            android:layout_width="wrap_content"
+            android:singleLine="true" android:text="@string/lbl_log_in2"
+            style="@style/txtComfortaaregular36" tools:text="@string/lbl_log_in2"/>
+        <EditText
+            android:background="@drawable/rectangle_bg_white_a700_border_black_900"
+            android:ellipsize="end"
+            android:hint="@string/msg_fa30576_seeu_ed"
+            android:id="@+id/etComponent"
+            android:inputType="textEmailAddress"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_33pxv"
+            android:layout_width="match_parent"
+            android:paddingBottom="@dimen/_16pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingStart="@dimen/_30pxh"
+            android:paddingTop="@dimen/_17pxv" android:singleLine="true"
+            android:textColorHint="@color/black_900"
+            style="@style/etSolidOutline" tools:ignore="Autofill"/>
+        <EditText
+            android:background="@drawable/rectangle_bg_white_a700_border_black_900"
+            android:ellipsize="end" android:hint="@string/lbl"
+            android:id="@+id/etPassword"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_16pxv"
+            android:layout_width="match_parent"
+            android:paddingBottom="@dimen/_19pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingStart="@dimen/_30pxh"
+            android:paddingTop="@dimen/_14pxv" android:singleLine="true"
+            android:textColorHint="@color/black_900"
+            style="@style/etSolidOutline" tools:ignore="Autofill"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:ellipsize="end" android:gravity="center"
+            android:id="@+id/btnEnter"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_76pxh"
+            android:layout_marginStart="@dimen/_76pxh"
+            android:layout_marginTop="@dimen/_32pxv"
+            android:layout_width="match_parent"
+            android:paddingBottom="@dimen/_5pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingStart="@dimen/_30pxh"
+            android:paddingTop="@dimen/_5pxv" android:singleLine="true"
+            android:text="@string/lbl_enter" android:textAllCaps="false"
+            style="@style/btnSolidRounded_1" tools:text="@string/lbl_enter"/>
+    </LinearLayout>
+</layout>

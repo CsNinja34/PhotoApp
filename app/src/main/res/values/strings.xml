@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">photo_app</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+<string name="lbl_asad_ali_shah">Asad Ali Shah</string>
+  <string name="lbl_log_in2">LOG IN</string>
+  <string name="lbl_search">Search</string>
+  <string name="lbl_next">next</string>
+  <string name="msg_wanted_to_ask_i">Wanted to ask if you\u2019re available for a portrait shoot next week.</string>
+  <string name="lbl_register2">Register</string>
+  <string name="lbl_see_more">see more</string>
+  <string name="lbl_rimsha_ali">Rimsha Ali</string>
+  <string name="lbl_rimshaali2">\@rimshaali</string>
+  <string name="lbl_message">message</string>
+  <string name="lbl2">*********</string>
+  <string name="lbl3">.</string>
+  <string name="msg_by_signing_up">By signing up, you agree to Photo\u2019s Terms of Service and 
+Privacy Policy.</string>
+  <string name="msg_tetovo_north_ma">Tetovo North Macedonia</string>
+  <string name="msg_a_fast_50mm_lik">A fast 50mm like f1.8 would help with the bokeh. I\u2019ve been using primes as they tend to get a bit sharper images.</string>
+  <string name="lbl_fayaz_seeu">\@fayaz_seeu</string>
+  <string name="lbl_log_in">log in</string>
+  <string name="lbl_enter">Enter</string>
+  <string name="lbl_chats">Chats</string>
+  <string name="msg_fa30576_seeu_ed">fa30576@seeu.edu.mk</string>
+  <string name="lbl_follow_fayaz">follow  Fayaz</string>
+  <string name="lbl_all_results">all results</string>
+  <string name="msg_terms_of_servic">Terms of Service</string>
+  <string name="lbl_james">James</string>
+  <string name="lbl_sign_up">sign up</string>
+  <string name="msg_i_m_looking_for">I\u2019m looking for tips around capturing the milky way. I have a 6D with a 24-100mm...</string>
+  <string name="msg_thank_you_that">Thank you! That was very helpful!</string>
+  <string name="lbl_and"> and 
+</string>
+  <string name="msg_really_love_you">Really love your most recent photo. I\u2019ve been trying to capture the same thing for a few months and would love some tips!</string>
+  <string name="lbl_fara_feroz">Fara Feroz</string>
+  <string name="lbl_privacy_policy">Privacy Policy</string>
+  <string name="lbl_dogs">Dogs</string>
+  <string name="lbl_register">register</string>
+  <string name="lbl">********</string>
+  <string name="msg_by_signing_up2">By signing up, you agree to Photo\u2019s </string>
+  <string name="lbl_enter2">          Enter</string>
+  <string name="msg_i_know_i_m_t">I know... I\u2019m trying to get the funds.</string>
+  <string name="lbl_fayaz_ali">Fayaz Ali </string>
+  <string name="lbl_fa130576">fa130576</string>
+</resources>

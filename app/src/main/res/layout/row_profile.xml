@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data/>
+    <ImageView android:id="@+id/imageRectangle"
+        android:layout_height="@dimen/_310pxv"
+        android:layout_width="match_parent" android:scaleType="fitXY"
+        imageRes="@{@drawable/img_rectangle22_310x167}"
+        tools:ignore="ContentDescription" tools:src="@drawable/img_rectangle22_310x167"/>
+</layout>
